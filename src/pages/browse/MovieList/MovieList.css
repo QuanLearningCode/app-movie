@@ -1,0 +1,44 @@
+.MovieList-container {
+  display: flex;
+  gap: 5px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  overflow-x: scroll;
+  width: 97%;
+}
+
+.scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #343a40;
+}
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #212529;
+}
+
+.Category {
+  font-size: 24px;
+  width: 97%;
+  margin: 1rem auto;
+  color: #f8f9fa;
+}
+
+.MovieItem-img {
+  height: 8rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-timing-function: ease;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.MovieItem-img:hover {
+  height: 9rem;
+  transition-timing-function: ease;
+  transition: width 1s, height 1s, transform 1s;
+}

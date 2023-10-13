@@ -1,0 +1,86 @@
+.Search-container {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
+
+.SearchForm-container {
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 50%;
+  height: 10rem;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+  position: relative;
+}
+
+.SearchForm-icon {
+  font-size: 32px;
+  color: #adb5bd;
+  margin-right: 7px;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.SearchForm-container input {
+  width: 96.7%;
+  height: 3rem;
+  padding: 7px 0 7px 25px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 5px solid #4dabf7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.SearchForm-button_container {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.SearchForm-button_reset {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: medium;
+  margin-right: 10px;
+  background-color: #e6eaee;
+  cursor: pointer;
+}
+
+.SearchForm-button_search {
+  padding: 10px 16px;
+  background-color: #339af0;
+  border: none;
+  border-radius: 5px;
+  font-weight: medium;
+  color: #f8f9fa;
+  cursor: pointer;
+}
+
+.ResultList-title {
+  width: 95%;
+  color: #f8f9fa;
+  margin: auto;
+}
+
+.ResultList-zero {
+  color: #f8f9fa;
+  margin: auto;
+  font-size: 28px;
+  font-style: italic;
+  text-align: center;
+}
+
+.ResultList-container {
+  width: 92%;
+  margin: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}

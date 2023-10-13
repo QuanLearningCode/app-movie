@@ -1,0 +1,14 @@
+.OriginalMovieItem-img {
+  width: 12rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition-timing-function: ease;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.OriginalMovieItem-img:hover {
+  width: 13rem;
+  transition-timing-function: ease;
+  transition: width 1s, height 1s, transform 1s;
+}
